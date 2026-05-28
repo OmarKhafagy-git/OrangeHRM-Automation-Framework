@@ -1,0 +1,11 @@
+# Maven and compiled output
+target/
+*.class
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
