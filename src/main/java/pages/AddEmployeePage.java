@@ -25,6 +25,7 @@ public class AddEmployeePage {
 
     public void clickAddEmployeeTab() {
         wait.until(ExpectedConditions.elementToBeClickable(addEmployeeTab)).click();
+
     }
 
     public void enterFirstName(String firstName) {
@@ -33,10 +34,12 @@ public class AddEmployeePage {
 
     public void enterLastName(String lastName) {
         driver.findElement(lastNameField).sendKeys(lastName);
+
     }
 
     public void clickSave() {
         driver.findElement(saveButton).click();
+
     }
 
     public boolean isEmployeeSavedSuccessfully() {
